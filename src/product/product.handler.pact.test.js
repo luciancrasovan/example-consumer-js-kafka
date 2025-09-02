@@ -13,7 +13,7 @@ describe("Kafka handler", () => {
     consumer: "pactflow-example-consumer-js-kafka",
     dir: path.resolve(process.cwd(), "pacts"),
     pactfileWriteMode: "update",
-    provider: "pactflow-example-provider-java-kafka",
+    provider: "pactflow-example-provider-springboot",
     logLevel: process.env.PACT_LOG_LEVEL ?? "info",
   });
 
